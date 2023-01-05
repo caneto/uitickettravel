@@ -1,16 +1,77 @@
-# flutter_bilheteiro
+# Ui Ticket Travel App
 
-A new Flutter project.
+<!--
+<b>Fotos usando Emulador em pt-BR, para traduzir o conteudo</b>
+<table> 
+  <tr>
+    <td> 
+      <img width="250" src="https://github.com/caneto/uimedicalapp/blob/main/screenshots/Screenshot_1670282732.png"/> 
+    </td>
+    <td>
+      <img width="250" src="https://github.com/caneto/uimedicalapp/blob/main/screenshots/Screenshot_1670282736.png"/> 
+    </td>
+    <td> 
+      <img width="250" src="https://github.com/caneto/uimedicalapp/blob/main/screenshots/Screenshot_1670282741.png"/> 
+    </td>
+  </tr>
+  
+  <tr>
+    <td> 
+      <img width="250" src="https://github.com/caneto/uimedicalapp/blob/main/screenshots/Screenshot_1670282744.png"/> 
+    </td>
+    <td>
+      <img width="250" src="https://github.com/caneto/uimedicalapp/blob/main/screenshots/Screenshot_1670282760.png"/> 
+    </td>
+    <td>
+      <img width="250" src="https://github.com/caneto/uimedicalapp/blob/main/screenshots/Screenshot_1670282773.png"/> 
+    </td>
+  </tr>
+</table> 
 
-## Getting Started
+<br/>
 
-This project is a starting point for a Flutter application.
+<b>Fotos usando Emulador normal (em ingles)</b>
+<table> 
+  <tr>
+    <td> 
+      <img width="250" src="https://github.com/caneto/uimedicalapp/blob/main/screenshots/Screenshot_1670283400.png"/> 
+    </td>
+    <td>
+      <img width="250" src="https://github.com/caneto/uimedicalapp/blob/main/screenshots/Screenshot_1670283406.png"/> 
+    </td>
+    <td> 
+      <img width="250" src="https://github.com/caneto/uimedicalapp/blob/main/screenshots/Screenshot_1670283409.png"/> 
+    </td>
+  </tr>
+  
+  <tr>
+    <td> 
+      <img width="250" src="https://github.com/caneto/uimedicalapp/blob/main/screenshots/Screenshot_1670283413.png"/> 
+    </td>
+    <td>
+      <img width="250" src="https://github.com/caneto/uimedicalapp/blob/main/screenshots/Screenshot_1670283430.png"/> 
+    </td>
+  </tr>
+</table> 
+-->
 
-A few resources to get you started if this is your first Flutter project:
+## Tecnologia usada
+<b>Componentes </b>i18n_extension, gap, fluentui_icons, barcode_widget, get.<br>
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+ - Flutter e flutter_localizations
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+ - i18n_extension - 6.0.0
+ - gap - 2.0.1
+ - fluentui_icons - 1.0.0
+ - barcode_widget - 2.0.3
+ - get - 4.6.5
+
+
+<b>Desenvolvido apenas para Android, e iOS.</b> - Testado exclusivamente em Android (Emulador). 
+
+<h2>📝 Licença</h2>
+
+<p>
+   Esse repositório está sobre a Licença GNU General Public License v3.0, e você pode vê-la no arquivo <a href="https://github.com/caneto/calculator-app/blob/main/LICENSE">LICENSE</a> para mais detalhes. 😉
+</p>
+
