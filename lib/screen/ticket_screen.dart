@@ -58,16 +58,16 @@ class TicketScreen extends StatelessWidget {
                       Gap(AppLayout.getHeight(15)),
                       Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                        children: [
+                        children: const [
                           AppColumnLayout(
                             firstxt: "Flutter DB",
-                            Secondtxt: "Passenger",
+                            secondtxt: "Passenger",
                             alignment: CrossAxisAlignment.start,
                             isColor: true,
                           ),
                           AppColumnLayout(
                             firstxt: "5461 562318",
-                            Secondtxt: "Passport",
+                            secondtxt: "Passport",
                             alignment: CrossAxisAlignment.end,
                             isColor: true,
                           ),
@@ -82,16 +82,16 @@ class TicketScreen extends StatelessWidget {
                       Gap(AppLayout.getHeight(15)),
                       Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                        children: [
+                        children: const [
                           AppColumnLayout(
                             firstxt: "0045 123454",
-                            Secondtxt: "Number of E-ticket",
+                            secondtxt: "Number of E-ticket",
                             alignment: CrossAxisAlignment.start,
                             isColor: true,
                           ),
                           AppColumnLayout(
                             firstxt: "B2SG28",
-                            Secondtxt: "Booking code",
+                            secondtxt: "Booking code",
                             alignment: CrossAxisAlignment.end,
                             isColor: true,
                           ),
@@ -128,9 +128,9 @@ class TicketScreen extends StatelessWidget {
                                   style: Style.headLineStyle4),
                             ],
                           ),
-                          AppColumnLayout(
+                          const AppColumnLayout(
                               firstxt: "\$234.40",
-                              Secondtxt: "Price",
+                              secondtxt: "Price",
                               alignment: CrossAxisAlignment.end,
                               isColor: true),
                         ],

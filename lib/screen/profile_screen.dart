@@ -217,15 +217,15 @@ class ProfileScreen extends StatelessWidget {
                   ),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [
+                    children: const [
                       AppColumnLayout(
                           firstxt: "23 042",
-                          Secondtxt: "Miles",
+                          secondtxt: "Miles",
                           alignment: CrossAxisAlignment.start,
                           isColor: true),
                       AppColumnLayout(
                           firstxt: "Airline CO",
-                          Secondtxt: "Resived from",
+                          secondtxt: "Resived from",
                           alignment: CrossAxisAlignment.end,
                           isColor: true),
                     ],
@@ -235,15 +235,15 @@ class ProfileScreen extends StatelessWidget {
                   Gap(AppLayout.getHeight(7)),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [
+                    children: const [
                       AppColumnLayout(
                           firstxt: "24",
-                          Secondtxt: "Miles",
+                          secondtxt: "Miles",
                           alignment: CrossAxisAlignment.start,
                           isColor: true),
                       AppColumnLayout(
                           firstxt: "McDona\'s",
-                          Secondtxt: "Resived from",
+                          secondtxt: "Resived from",
                           alignment: CrossAxisAlignment.end,
                           isColor: true),
                     ],
@@ -253,15 +253,15 @@ class ProfileScreen extends StatelessWidget {
                   Gap(AppLayout.getHeight(7)),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [
+                    children: const [
                       AppColumnLayout(
                           firstxt: "52 340",
-                          Secondtxt: "Miles",
+                          secondtxt: "Miles",
                           alignment: CrossAxisAlignment.start,
                           isColor: true),
                       AppColumnLayout(
                           firstxt: "Exuma",
-                          Secondtxt: "Resived from",
+                          secondtxt: "Resived from",
                           alignment: CrossAxisAlignment.end,
                           isColor: true),
                     ],

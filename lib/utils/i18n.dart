@@ -3,25 +3,28 @@ import 'package:i18n_extension/i18n_extension.dart';
 extension Localization on String {
   static final _t = Translations("en_us") +
       {
-        "en_us": "You have 12 \nappointments today",
-        "pt_br": "Você tem 12 \ncompromissos hoje",
+        "en_us": "London",
+        "pt_br": "Londres",
       } +
       {
-        "en_us": "Password",
-        "pt_br": "Senha",
+        "en_us": "Open Space",
+        "pt_br": "Espaço aberto",
       } +
       {
-        "en_us": "Don't have an account?",
-        "pt_br": "Não tem uma conta?",
-      } +
-      {"en_us": "Sign Up", "pt_br": "Inscrever-se"} +
-      {
-        "en_us": "Register Now",
-        "pt_br": "Registrar agora",
+        "en_us": "Global Will",
+        "pt_br": "Vontade Global",
       } +
       {
-        "en_us": "Choose your operating system",
-        "pt_br": "Escolha seu sistema operacional",
+        "en_us": "Tallest Building", 
+        "pt_br": "Edifício mais alto"
+      } +
+      {
+        "en_us": "night",
+        "pt_br": "noite",
+      } +
+      {
+        "en_us": "\$",
+        "pt_br": "R\$",
       } +
       {
         "en_us": "VACCINE \nDT(GENERIC)",

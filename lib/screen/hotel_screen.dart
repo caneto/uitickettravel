@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_bilheteiro/utils/i18n.dart';
 import 'package:gap/gap.dart';
 
 import '../utils/app_layout.dart';
@@ -6,11 +7,15 @@ import '../utils/app_style.dart';
 
 class HotelScreen extends StatelessWidget {
   final Map<String, dynamic> hotel;
-   const HotelScreen({Key? key , required this.hotel}) : super(key: key);
+  HotelScreen({Key? key , required this.hotel}) : super(key: key);
 
+  String valor1 = "\$".i18n;
+  String valor2 = "night".i18n; 
+  
   @override
   Widget build(BuildContext context) {
     final size = AppLayout.getSize(context);
+    
     return Container(
       width: size.width*0.6,
       height: AppLayout.getHeight(350),
@@ -43,11 +48,11 @@ class HotelScreen extends StatelessWidget {
             ),
           ), 
           const Gap(10), 
-          Text("${hotel['place']}", style: Style.headLineStyle2.copyWith(color: Style.kakiColor),),
+          Text("${hotel['place']}".i18n, style: Style.headLineStyle2.copyWith(color: Style.kakiColor),),
           const Gap(5), 
-          Text("${hotel['destination']}", style: Style.headLineStyle3.copyWith(color: Colors.white),),
+          Text("${hotel['destination']}".i18n, style: Style.headLineStyle3.copyWith(color: Colors.white),),
           const Gap(8), 
-          Text("\$ ${hotel['price']}/night", style: Style.headLineStyle1.copyWith(color: Style.kakiColor),)
+          Text("${valor1} ${hotel['price']}/${valor2}", style: Style.headLineStyle1.copyWith(color: Style.kakiColor),)
         ],
       ),
     );
